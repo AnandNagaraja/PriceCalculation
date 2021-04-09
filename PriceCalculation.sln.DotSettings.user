@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=42705619_002Dee12_002D4eba_002D9c43_002D185b07794b2e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ApplyAndGetHalfPriceDiscount_WithOneOffer_Should_Return_Valid_Discount #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::30D152D0-F84E-4A28-8ADB-890F5231E33C::.NETCoreApp,Version=v3.1::PriceCalculation.Test.Discounts.HalfPriceDiscountTests.ApplyAndGetHalfPriceDiscount_WithOneOffer_Should_Return_Valid_Discount&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7a03286c_002D8b29_002D4a03_002D8c12_002Debc6c41465ed/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ApplyAndGetHalfPriceDiscount_WithOneOffer_Should_Return_Valid_Discount #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::30D152D0-F84E-4A28-8ADB-890F5231E33C::.NETCoreApp,Version=v3.1::PriceCalculation.Test.Discounts.HalfPriceDiscountTests.ApplyAndGetHalfPriceDiscount_WithOneOffer_Should_Return_Valid_Discount&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e98ec835_002Decb5_002D43f8_002Dbab0_002De3eb74aa2be0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ApplyAndGetHalfPriceDiscount_WithOneOffer_Should_Return_Valid_Discount" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::30D152D0-F84E-4A28-8ADB-890F5231E33C::.NETCoreApp,Version=v3.1::PriceCalculation.Test.Discounts.HalfPriceDiscountTests.ApplyAndGetHalfPriceDiscount_WithOneOffer_Should_Return_Valid_Discount&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f24b380a_002Da841_002D4838_002Daa07_002D364e415eff05/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ApplyAndGetHalfPriceDiscount_WithOneOffer_Should_Return_Valid_Discount #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
