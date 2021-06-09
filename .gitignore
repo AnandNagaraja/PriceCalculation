@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo
+*.dll
+*.pdb
+/PriceCalculation/bin
+/PriceCalculation.Test/bin/Debug/netcoreapp3.1
+/PriceCalculation.Test/obj
+/PriceCalculation/obj
