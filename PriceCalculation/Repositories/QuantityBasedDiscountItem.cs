@@ -8,13 +8,19 @@ namespace PriceCalculation.Repositories
     public class QuantityBasedDiscountItem : IQuantityBasedDiscountItem
     {
 
-        // Todo: this should return collection of QuantityBasedDiscountDto, as there will be multiple items on offer
-        public QuantityBasedDiscountDto GetQuantityBasedDiscountItem()
+        public List<QuantityBasedDiscountDto> GetQuantityBasedDiscountItem()
         {
-            return new QuantityBasedDiscountDto()
+            return new List<QuantityBasedDiscountDto>() {
+            new QuantityBasedDiscountDto
             {
                 ItemOnOffer = "Milk",
                 ItemQuantityOnOffer = 3
+            },
+            new QuantityBasedDiscountDto
+            {
+                ItemOnOffer = "Bread",
+                ItemQuantityOnOffer = 2
+            }
             };
         }
 

@@ -52,6 +52,39 @@ namespace PriceCalculation.Test.Discounts
         }
 
 
+        [TestMethod]
+        [DataRow(1, 0.00)]
+        [DataRow(2, 0.00)]
+        [DataRow(3, 1.00)]
+        [DataRow(4, 1.00)]
+        [DataRow(5, 1.00)]
+        [DataRow(6, 2.00)]
+        public void ApplyAndGetQuantityBasedDiscount_WithOffer_Should_ReturnValid_Discount_ForBread(int quantity, double expectedDiscount)
+        {
+            var basketItemQuantity = new Dictionary<string, int>
+            {
+                {"Bread", quantity}
+            };
+
+            var discountPrice = _quantityBasedDiscount.ApplyAndGetQuantityBasedDiscount(basketItemQuantity);
+
+            discountPrice.Should().Be(expectedDiscount);
+        }
+
+        [TestMethod]
+        public void ApplyAndGetQuantityBasedDiscount_WithOffer_Should_ReturnValid_Discount_ForMultipleItem()
+        {
+            var basketItemQuantity = new Dictionary<string, int>
+            {
+                {"Butter", 4},
+                {"Bread", 3},
+                {"Milk", 4}
+            };
+
+            var discountPrice = _quantityBasedDiscount.ApplyAndGetQuantityBasedDiscount(basketItemQuantity);
+
+            discountPrice.Should().Be(2.15);
+        }
 
     }
 }

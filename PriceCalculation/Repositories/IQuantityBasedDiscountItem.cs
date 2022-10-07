@@ -1,9 +1,10 @@
-﻿using PriceCalculation.Discounts.DTO;
+﻿using System.Collections.Generic;
+using PriceCalculation.Discounts.DTO;
 
 namespace PriceCalculation.Repositories
 {
     public interface IQuantityBasedDiscountItem
     {
-        QuantityBasedDiscountDto GetQuantityBasedDiscountItem();
+        List<QuantityBasedDiscountDto> GetQuantityBasedDiscountItem();
     }
 }
